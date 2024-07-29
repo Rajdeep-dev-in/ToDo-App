@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #E1E3EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 100px;
+    background-color: #DE3F53;
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.container div h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.container .input-form{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.container .input-form .todo-task{
+    width: 90%;
+    height: 100%;
+    background-color: #3C4979;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+.container .input-form .btn{
+    width: 10%;
+    height: 100%;
+    background-color: #1DD2AF;
+    border: none;
+    cursor: pointer;
+}
+.container .input-form .btn .fa-plus{
+    color: #fff;
+    font-size: 18px;
+}
+.container .list-tag .list-item{
+    list-style-type: none;
+    background-color: #252349;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 20px;
+    border-bottom: 1px solid #262E4C;
+    
+}
+.container .list-tag .list-item span{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container .list-tag .list-item .fa-solid{
+    cursor: pointer;
+}
